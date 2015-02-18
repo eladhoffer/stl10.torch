@@ -9,8 +9,8 @@ Each of them is a table of the form:
 th> stl10 = torch.load('stl10-train.t7')
 th> print(stl10)
 {
-        data : ByteTensor - size: 50000x3x96x96
-        label : ByteTensor - size: 50000
+        data : ByteTensor - size: 5000x3x96x96
+        label : ByteTensor - size: 5000
 }
 ```
 The Unlabeled file has only the data field
